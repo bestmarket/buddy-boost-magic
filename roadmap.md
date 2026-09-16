@@ -14,3 +14,12 @@
 - [x] Server actions for keys, toggles, defaults and telemetry
 - [x] Admin role: first signed-in person can take the admin seat (one-time)
 - [x] AI routing tested end to end (reply received through the built-in AI)
+
+## Import into new project (current)
+- [x] Copy app code and packages
+- [x] Apply database tables and access rules
+- [ ] Private `media` storage bucket
+- [ ] Email + Google sign-in enabled
+- [ ] Scheduled-videos secret
+- [ ] Make admin page accessible to the owner account
+- [ ] Verify pages load
