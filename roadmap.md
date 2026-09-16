@@ -18,8 +18,8 @@
 ## Import into new project (current)
 - [x] Copy app code and packages
 - [x] Apply database tables and access rules
-- [ ] Private `media` storage bucket
-- [ ] Email + Google sign-in enabled
-- [ ] Scheduled-videos secret
-- [ ] Make admin page accessible to the owner account
-- [ ] Verify pages load
+- [x] Private `media` storage bucket
+- [x] Email + Google sign-in enabled
+- [x] Scheduled-videos secret
+- [x] Make admin page accessible to the owner account
+- [x] Verify pages load
