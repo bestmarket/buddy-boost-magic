@@ -41,7 +41,9 @@ function useIsAdmin() {
     queryFn: () => getAdminStatus(),
     staleTime: 60_000,
   });
-  return Boolean(status.data?.isAdmin);
+  // Show the Admin entry to admins, and to the first person who can still
+  // claim the admin seat — otherwise the page is unreachable in a fresh app.
+  return Boolean(status.data?.isAdmin || status.data?.canClaim);
 }
 
 function AppLayout() {
